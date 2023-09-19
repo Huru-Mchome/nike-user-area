@@ -1,0 +1,133 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.backg {
+  background-image: url(images/backg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  filter: blur(0.5rem);
+}
+.inside {
+  position: absolute;
+  top: 0%;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 7%;
+}
+.txt1 img {
+  width: 13%;
+}
+.txt2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.txt3 {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.txt4 {
+  margin-bottom: 30px;
+}
+.txt4 h1 {
+  text-decoration: underline rgb(206, 49, 49) 2px;
+}
+.txt4 h1:hover {
+  color: rgb(206, 49, 49);
+  text-decoration: none;
+  transition: 0.4s;
+}
+.txt5 li {
+  display: inline;
+}
+.txt5 img {
+  width: 2.8%;
+}
+.side2 {
+  position: absolute;
+  top: 24%;
+  left: 60%;
+  right: 30%;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 30px rgb(102, 101, 101);
+  background-color: white;
+  width: 30%;
+}
+.content2 {
+  margin: 30px 15px;
+  padding: 5%;
+}
+form input {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: gainsboro;
+}
+form button {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(206, 49, 49);
+}
+form button:hover {
+  background-color: gainsboro;
+  color: black;
+  transition: 0.3s;
+}
+.input-group {
+  position: relative;
+}
+.input {
+  box-sizing: border-box;
+  outline: none;
+  padding: 10px;
+}
+.placeholder {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  color: rgb(96, 95, 95);
+  font-size: 14px;
+  transition: 0.4s;
+  pointer-events: none;
+}
+.input:focus + .placeholder {
+  top: -11px;
+  background-color: white;
+  border-radius: 5px;
+}
+.txt6 {
+  position: absolute;
+  left: 35%;
+}
+.txt6 p:hover {
+  color: rgb(206, 49, 49);
+  text-decoration: underline;
+  transition: 0.4s;
+}
+@media only screen and (max-width: 720px) {
+  .content {
+    display: flex;
+    flex-direction: ;
+  }
+}
